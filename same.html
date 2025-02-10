@@ -1,0 +1,75 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>T E S T</title>
+</head>
+<body>
+ <Button onclick="
+ let CPUmove = Moves();
+ let result ='';
+ 
+ 
+ if(CPUmove === 'PAPER') {
+   result = 'TIE.';
+ } else if(CPUmove === 'PENCIL') {
+     result = 'YOU WIN';
+ } else if(CPUmove === 'BLADE') {
+     result = 'YOU LOSE';
+ }
+console.log(result);
+
+alert(`YOU PICK PAPER. COMPUTER PIKED
+  ${CPUmove}. ${result}`);
+ ">PAPER</Button>
+ 
+ <Button onclick="
+ let CPUmove = Moves();
+ let result ='';
+ if(CPUmove === 'PENCIL') {
+   result = 'TIE.';
+ } else if(CPUmove === 'BLADE') {
+     result = 'YOU WIN';
+ } else if(CPUmove === 'PAPER') {
+     result = 'YOU LOSE';
+ }
+console.log(result);
+
+alert(`YOU PICK PENCIL. COMPUTER PIKED
+  ${CPUmove}. ${result}`);
+ ">PENCIL</Button>
+ 
+ <Button onclick="
+ let CPUmove = Moves();
+ let result ='';
+ if(CPUmove === 'BLADE') {
+   result = 'TIE.';
+ } else if(CPUmove === 'PENCIL') {
+     result = 'YOU WIN';
+ } else if(CPUmove === 'PAPER') {
+     result = 'YOU LOSE';
+ }
+console.log(result);
+
+alert(`YOU PICK BLADE. COMPUTER PIKED
+  ${CPUmove}. ${result}`);
+ ">BLADE</Button>
+ 
+ <script src="same.js"></script>  
+</body>
+</html>
+
+
